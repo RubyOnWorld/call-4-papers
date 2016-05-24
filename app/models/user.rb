@@ -1,6 +1,4 @@
 class User < ActiveRecord::Base
-  GENDERS = ["male", "female", "unspecified"]
-
   has_many :authentications, dependent: :destroy
   has_many :talks, dependent: :destroy
   has_many :proposals, through: :talks
@@ -76,14 +74,6 @@ class User < ActiveRecord::Base
 
   def mentor?
     read_attribute(:mentor) || false
-  end
-
-  def gender=(gender)
-    write_attribute(:gender, GENDERS.index(gender))
-  end
-
-  def gender
-    GENDERS[read_attribute(:gender)] if read_attribute(:gender)
   end
 
   class << self

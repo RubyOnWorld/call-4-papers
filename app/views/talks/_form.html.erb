@@ -16,7 +16,7 @@
     <div class="small-4 columns">
       <h2><%= t('profile') %></h2>
       <%= f.fields_for :user do |uf| %>
-        <%= uf.input :gender, collection: [:male, :female, :unspecified], include_blank: '(leave empty)' %>
+        <%= uf.text_field :gender %>
         <%= uf.input :bio %>
         <%= uf.input :mentor %>
       <% end %>
