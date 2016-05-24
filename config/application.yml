@@ -1,23 +1,21 @@
 defaults: &defaults
   mailers:
-    from: "cfp@eurucamp.org"
+    from: "cfp@rustfest.eu"
     notifications:
-      new_paper: "cfp-new-papers@eurucamp.org"
+      new_paper: "cfp-new-papers@rustfest.eu"
   errors:
-    from: "exception@eurucamp.org"
+    from: "exception@rustfest.eu"
     to:
-      - "cfp-errors@eurucamp.org"
+      - "cfp-errors@rustfest.eu"
   conference:
     coc_link:
-      "https://rubyberlin.github.io/code-of-conduct/"
+      "https://rustfest.eu/code-of-conduct/"
     time_slots:
       - 15 minutes
       - 30 minutes
       - 40 minutes
   conferences:
-    - eurucamp
-    - jrubyconf
-    - euruko
+    - rustfest
 
 development:
   <<: *defaults
@@ -25,7 +23,7 @@ development:
 test:
   <<: *defaults
   mailers:
-    from: 'test@eurucamp.org'
+    from: 'test@rustfest.eu'
     notifications:
       new_paper: "somebody@somewhere.com"
 
@@ -34,7 +32,7 @@ staging:
   mailers:
     from: "cfp+staging@eurucamp.org"
     notifications:
-      new_paper: "piotr@gega.io"
+      new_paper: "flo@andersground.net"
 
 production:
   <<: *defaults

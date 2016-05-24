@@ -171,9 +171,9 @@ en:
       propose_speaker: Propose a speaker
   footer:
     explanatory_html: |-
-      This community event is proudly organized by <a href="http://rubyberlin.org/">Ruby Berlin e.V.</a>
+      This community event is proudly organized by <a href="http://rubyberlin.org/">Rust Community Europe e.V.</a>
       <span class="separator">·</span>
-      When in doubt, shoot an email to <a href="mailto:info@eurucamp.org">info@eurucamp.org</a>
+      When in doubt, shoot an email to <a href="mailto:info@rustfest.eu">info@rustfest.eu</a>
   proposed_speakers:
     create:
       notice: Great Job! You have successfully proposed a speaker.
