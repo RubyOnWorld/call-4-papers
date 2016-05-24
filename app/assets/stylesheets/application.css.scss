@@ -10,8 +10,11 @@
  *
  *= require_self
  *= require auth-buttons
+ *= require selectize
+ *= require selectize.default
  *= require_tree .
  */
+
 
 @import "font-awesome-sprockets";
 @import "font-awesome";

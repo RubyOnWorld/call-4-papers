@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  KNOWN_PRONOUNS = [""] + %w(she he they ze/hir ze/zir xey sie it ey e hu peh per thon jee ve/ver xe zie/zir ze/zem zie/zem ze/mer se zme ve/vem zee)
+
   has_many :authentications, dependent: :destroy
   has_many :talks, dependent: :destroy
   has_many :proposals, through: :talks

@@ -9,9 +9,9 @@
       <%= f.input :email %>
       <%= f.input :bio %>
       <%= f.input :gender %>
+      <%= f.input :pronoun, { collection: User::KNOWN_PRONOUNS }  %>
       <%= f.input :mentor %>
     </div>
-
     <div class="actions">
       <%= f.button :submit, class: 'button' %>
     </div>

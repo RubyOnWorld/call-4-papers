@@ -9,6 +9,7 @@ gem 'unicorn'
 
 gem 'devise', '~> 3.4.1'
 gem 'simple_form', '~> 3.1.0'
+gem 'selectize-rails'
 gem 'omniauth'
 gem 'omniauth-github'
 gem 'omniauth-twitter'
