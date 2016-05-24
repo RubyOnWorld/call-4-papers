@@ -9,7 +9,7 @@
       <%= f.input :email %>
       <%= f.input :bio %>
       <%= f.input :gender %>
-      <%= f.input :pronoun, { collection: User::KNOWN_PRONOUNS }  %>
+      <%= f.input :pronoun, { collection: User::KNOWN_PRONOUNS, include_blank: "pick your own" } %>
       <%= f.input :mentor %>
     </div>
     <div class="actions">
