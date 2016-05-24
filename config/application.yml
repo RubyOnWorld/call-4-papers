@@ -9,7 +9,7 @@ defaults: &defaults
       - "cfp-errors@rustfest.eu"
   conference:
     coc_link:
-      "https://rustfest.eu/code-of-conduct/"
+      "http://rustfest.eu/code-of-conduct/"
     time_slots:
       - 15 minutes
       - 30 minutes
