@@ -173,7 +173,7 @@ en:
       propose_speaker: Propose a speaker
   footer:
     explanatory_html: |-
-      This community event is proudly organized by <a href="http://rubyberlin.org/">Rust Community Europe e.V.</a>
+      This community event is proudly organized by <a href="http://rustc.eu/">Rust Community Europe e.V.</a>
       <span class="separator">·</span>
       When in doubt, shoot an email to <a href="mailto:info@rustfest.eu">info@rustfest.eu</a>
   proposed_speakers:
